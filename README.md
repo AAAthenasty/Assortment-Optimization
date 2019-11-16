@@ -10,4 +10,10 @@ There are theories about Prefix Span Algorithm on the internet and Github but no
 For the transaction data, only need to keep the record of user name, upc and transction time
 
 ## Result 
-By using this algorithm, we can get the frequent pattern cross transactions for each consumer
+By using this algorithm, we can get the frequent pattern cross transactions for each consumer,you can set the support according your requriments.
+
+The result is like this 
+``` 
+pattern:[['c7f48de7f35e1902c1f03d1cdda26d8a']], support:405
+pattern:[['c7f48de7f35e1902c1f03d1cdda26d8a', '985ece5369e28d3e825db88479340d83']], support:130 
+```
